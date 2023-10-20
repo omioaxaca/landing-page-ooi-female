@@ -60,7 +60,7 @@
 .warningMessage p {
   text-align: justify;
   line-height: 1.5;
-  font-weight: bold;
+  font-weight: 400;
 }
 
 /* Mobile */
