@@ -1,0 +1,104 @@
+.welcomeContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color:hsla(272,30%,40%,1);
+    background-image:
+            radial-gradient(at 0% 1%, hsla(272,100%,40%,1) 0px, transparent 50%),
+            radial-gradient(at 3% 91%, hsla(272,100%,40%,1) 0px, transparent 50%),
+            radial-gradient(at 73% 0%, hsla(55,100%,68%,1) 0px, transparent 50%),
+            radial-gradient(at 30% 36%, hsla(272,100%,40%,1) 0px, transparent 50%),
+            radial-gradient(at 73% 85%, hsla(272,100%,40%,1) 0px, transparent 50%),
+            radial-gradient(at 53% 65%, hsla(272,100%,40%,1) 0px, transparent 50%),
+            radial-gradient(at 27% 98%, hsla(272,100%,40%,1) 0px, transparent 50%),
+            radial-gradient(at 100% 0%, hsla(55,100%,68%,1) 0px, transparent 50%);
+}
+
+.leftContainer {
+    flex-direction: column;
+    height: 100vh;
+    padding: 40px;
+    margin-right: 60px;
+}
+
+.descriptionContainer {
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 0 15px;
+    border-left: 8px solid #FFEF61;
+    max-width: 400px;
+    margin-bottom: 30px;
+}
+
+.descriptionContainer p {
+    font-size: 40px;
+}
+
+.descriptionContainer p:first-child {
+    margin-bottom: 16px;
+}
+
+.logoBox {
+    max-width: 200px;
+    margin-bottom: 80px;
+}
+
+.logoBox img {
+    width: 100%;
+}
+
+.imageContainer {
+    justify-content: flex-end;
+}
+
+.imageBox {
+    max-width: 500px
+}
+
+.imageBox img {
+    width: 100%;
+    height: auto;
+}
+
+.warningMessage {
+    max-width: 450px;
+}
+
+.warningMessage p {
+    text-align: justify;
+    line-height: 1.5;
+    font-size: 20px;
+}
+
+/* Mobile */
+@media (max-width: 700px) {
+    .main {
+        padding: 20px;
+        flex-direction: column-reverse;
+    }
+    .descriptionContainer {
+        padding: 0 12px 0;
+    }
+    .descriptionContainer p:first-child {
+        margin-bottom: 16px;
+    }
+    .descriptionContainer p {
+        font-size: 30px;
+    }
+    .leftContainer {
+        padding: 20px;
+        margin-right: 0;
+    }
+    .logoBox {
+        margin-bottom: 50px;
+    }
+    .imageContainer {
+        display: none;
+    }
+}
+
+/* Tablet and Smaller Desktop */
+@media (min-width: 701px) and (max-width: 1120px) {
+
+}
