@@ -73,7 +73,6 @@
 * {
   box-sizing: border-box;
   padding: 0;
-  margin: 0;
 }
 
 html,
@@ -82,26 +81,14 @@ body {
   overflow-x: hidden;
 }
 
+p {
+  font-weight: 400;
+}
+
 body {
   color: white;
-  background: linear-gradient(135deg, #70408C, #FFEF61);
-  /*background: linear-gradient(to right top, #70408C, #FFEF61);*/
-  /*background-image: linear-gradient(45deg, rgba(112,64,140,1) 53%, rgba(255,239,97,1) 86%);*/
-  /*background: radial-gradient(circle at 30% 30%, #6b438e, transparent),*/
-  /*radial-gradient(circle at 70% 70%, rgba(255, 255, 255, 0.1), transparent),*/
-  /*linear-gradient(135deg, #6b438e, #ffd369);*/
-  /*background-color: rgba(57, 0, 165, 1);*/
-  /*background-image:*/
-  /*        radial-gradient(at 96% 38%, rgba(187, 191, 40, 1) 0px, transparent 50%),*/
-  /*        radial-gradient(at 100% 4%, rgba(255, 233, 44, 1) 0px, transparent 50%),*/
-  /*        radial-gradient(at 59% 1%, rgba(255, 233, 44, 1) 0px, transparent 50%),*/
-  /*        radial-gradient(at 23% 27%, rgba(57, 0, 165, 1) 0px, transparent 50%);*/
-  /*background: linear-gradient(*/
-  /*        to bottom,*/
-  /*        transparent,*/
-  /*        rgb(var(--background-end-rgb))*/
-  /*)*/
-  /*rgb(var(--background-start-rgb));*/
+  background-color: white;
+  margin: 0;
 }
 
 a {
