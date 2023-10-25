@@ -1,8 +1,4 @@
 .pageContainer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     background-color:hsla(272,30%,40%,1);
     background-image:
             radial-gradient(at 0% 1%, hsla(272,100%,40%,1) 0px, transparent 50%),

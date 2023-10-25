@@ -34,12 +34,6 @@ const WelcomeBannerComponent = () => {
 					</div>
 				</div>
 			</div>
-			<div className="formContainer" style={{ paddingBottom: '100%', position: 'relative', display: 'block', width: '100%'}}>
-				<iframe width="100%" height="100%"
-            src="https://forms.office.com/Pages/ResponsePage.aspx?id=wPKBgTgnB0iSOv3jtFLHFZ6seHNzg6pOi2aeKwqdEG9UQ0Q1UzcxWE5HSzFRQk5GNFhTRlAxT1lUMC4u&embed=true"
-						frameBorder="0" allowFullScreen={false} style={{ position:'absolute', top:'0', left: '0'}}>
-				</iframe>
-			</div>
 		</div>
 	);
 }
