@@ -1,6 +1,6 @@
-.welcomeContainer {
+.pageContainer {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color:hsla(272,30%,40%,1);
@@ -15,9 +15,15 @@
             radial-gradient(at 100% 0%, hsla(55,100%,68%,1) 0px, transparent 50%);
 }
 
+.welcomeContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
 .leftContainer {
     flex-direction: column;
-    height: 100vh;
     padding: 40px;
     margin-right: 60px;
 }
@@ -73,16 +79,8 @@
 
 /* Mobile */
 @media (max-width: 700px) {
-    .main {
-        padding: 20px;
-        flex-direction: column-reverse;
-    }
-    .descriptionContainer {
-        padding: 0 12px 0;
-    }
-    .descriptionContainer p:first-child {
-        margin-bottom: 16px;
-    }
+
+
     .descriptionContainer p {
         font-size: 30px;
     }
